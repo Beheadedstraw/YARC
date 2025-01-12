@@ -1,0 +1,43 @@
+name: Yarc Client Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Go
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.21 # Replace with your Go version
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          cd client
+          go mod tidy
+
+      # Step 4: Build the client
+      - name: Build the client
+        run: |
+          cd client
+          go build -0 yarc-cli
+
+      # Step 6: Archive the binary (Optional)
+      - name: Archive build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: yarc-cli
+          path: client/yarc-cli
