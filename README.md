@@ -11,3 +11,9 @@ There's no connection string or anything to get started. The current method of s
 
 Right now there's a barebones client that will query the localhost, you can run this as `./yarc-cli 0 set key value`.
 
+## Under The Hood
+This uses goroutines for each client and channels to maintain sync with the main DB store across the routines. I have no idea if there's a better way to do this, but from what I've read this is the easiest and most effect way to maintain sync across threads. If someone else has a better way I'm all ears. 
+
+## Future Plans
+Not much, just get it stable, add a few more commands, maybe throw in actual JSON support.
+
