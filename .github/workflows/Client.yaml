@@ -33,7 +33,7 @@ jobs:
       - name: Build the client
         run: |
           cd client
-          go build -0 yarc-cli
+          go build -o yarc-cli
 
       # Step 6: Archive the binary (Optional)
       - name: Archive build artifact
