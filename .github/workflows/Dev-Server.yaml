@@ -1,0 +1,43 @@
+name: YARC Server Build (Dev)
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Go
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.21 # Replace with your Go version
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          cd server
+          go mod tidy
+
+      # Step 4: Build the server
+      - name: Build the server
+        run: |
+          cd server
+          go build -o my_server-dev
+
+      # Step 6: Archive the binary (Optional)
+      - name: Archive build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: server-binary-dev
+          path: server/my_server-dev
