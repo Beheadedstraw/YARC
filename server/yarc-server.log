@@ -1,0 +1,939 @@
+2025/01/15 11:33:21 Starting YARC Server:  0.1.1  Date:  time.Date(2025, time.January, 15, 11, 33, 21, 735469998, time.Local)
+2025/01/15 11:38:29 Starting YARC Server:  0.1.1
+2025/01/15 11:38:29 DBs Initialized:  10
+2025/01/15 11:42:55 -------------------------
+Starting YARC Server:  0.1.1 
+--------------------------
+2025/01/15 11:42:55 DBs Initialized:  10
+2025/01/15 11:43:13 
+-------------------------
+Starting YARC Server:  0.1.1 
+--------------------------
+2025/01/15 11:43:13 DBs Initialized:  10
+2025/01/15 11:43:32 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 11:43:32 DBs Initialized:  10
+2025/01/15 12:00:13 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:00:13 DBs Initialized:  10
+2025/01/15 12:00:22 Client connected: 127.0.0.1:47180
+2025/01/15 12:00:22 Client disconnected: 127.0.0.1:47180
+2025/01/15 12:00:23 Client connected: 127.0.0.1:47194
+2025/01/15 12:00:23 Client disconnected: 127.0.0.1:47194
+2025/01/15 12:42:43 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:42:43 DBs Initialized:  10
+2025/01/15 12:43:07 Client connected: 127.0.0.1:36858
+2025/01/15 12:43:48 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:43:48 DBs Initialized:  10
+2025/01/15 12:43:50 Client connected: 127.0.0.1:37662
+2025/01/15 12:43:50 Client disconnected: 127.0.0.1:37662
+2025/01/15 12:48:25 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:48:25 DBs Initialized:  10
+2025/01/15 12:48:26 Client connected: 127.0.0.1:37930
+2025/01/15 12:48:26 Client disconnected: 127.0.0.1:37930
+2025/01/15 12:48:45 Client connected: 127.0.0.1:37220
+2025/01/15 12:48:45 Client disconnected: 127.0.0.1:37220
+2025/01/15 12:48:51 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:48:51 DBs Initialized:  10
+2025/01/15 12:48:53 Client connected: 127.0.0.1:58018
+2025/01/15 12:48:53 Client disconnected: 127.0.0.1:58018
+2025/01/15 12:51:25 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:51:25 DBs Initialized:  10
+2025/01/15 12:51:28 Client connected: 127.0.0.1:44736
+2025/01/15 12:51:28 Client disconnected: 127.0.0.1:44736
+2025/01/15 12:53:56 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:53:56 DBs Initialized:  10
+2025/01/15 12:53:57 Client connected: 127.0.0.1:45076
+2025/01/15 12:53:57 Client disconnected: 127.0.0.1:45076
+2025/01/15 12:54:40 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:54:40 DBs Initialized:  10
+2025/01/15 12:54:42 Client connected: 127.0.0.1:42254
+2025/01/15 12:54:42 Client disconnected: 127.0.0.1:42254
+2025/01/15 12:57:04 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 12:57:04 DBs Initialized:  10
+2025/01/15 12:57:09 Client connected: 127.0.0.1:39706
+2025/01/15 12:57:09 Client disconnected: 127.0.0.1:39706
+2025/01/15 13:21:01 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 13:21:01 DBs Initialized:  10
+2025/01/15 13:21:07 Client connected: 127.0.0.1:57906
+2025/01/15 13:21:07 Client disconnected: 127.0.0.1:57906
+2025/01/15 13:21:43 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 13:21:43 DBs Initialized:  10
+2025/01/15 13:23:20 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 13:23:20 DBs Initialized:  10
+2025/01/15 13:23:24 Client connected: 127.0.0.1:44530
+2025/01/15 13:23:24 Client disconnected: 127.0.0.1:44530
+2025/01/15 13:31:34 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 13:31:34 DBs Initialized:  10
+2025/01/15 13:31:41 Client connected: 127.0.0.1:35778
+2025/01/15 13:31:41 Client disconnected: 127.0.0.1:35778
+2025/01/15 13:32:10 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 13:32:10 DBs Initialized:  10
+2025/01/15 13:32:11 Client connected: 127.0.0.1:42758
+2025/01/15 13:32:11 Client disconnected: 127.0.0.1:42758
+2025/01/15 13:32:21 Client connected: 127.0.0.1:58810
+2025/01/15 13:32:21 Client disconnected: 127.0.0.1:58810
+2025/01/15 13:32:24 Client connected: 127.0.0.1:58814
+2025/01/15 13:32:24 Client disconnected: 127.0.0.1:58814
+2025/01/15 15:39:02 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:39:02 DBs Initialized:  10
+2025/01/15 15:39:08 Client connected: 127.0.0.1:54204
+2025/01/15 15:39:08 Client disconnected: 127.0.0.1:54204
+2025/01/15 15:39:15 Client connected: 127.0.0.1:36164
+2025/01/15 15:39:15 Client disconnected: 127.0.0.1:36164
+2025/01/15 15:39:22 Client connected: 127.0.0.1:33402
+2025/01/15 15:39:22 Client disconnected: 127.0.0.1:33402
+2025/01/15 15:39:29 Client connected: 127.0.0.1:33414
+2025/01/15 15:39:29 Client disconnected: 127.0.0.1:33414
+2025/01/15 15:39:33 Client connected: 127.0.0.1:38538
+2025/01/15 15:39:33 Client disconnected: 127.0.0.1:38538
+2025/01/15 15:39:40 Client connected: 127.0.0.1:38544
+2025/01/15 15:39:40 Client disconnected: 127.0.0.1:38544
+2025/01/15 15:39:44 Client connected: 127.0.0.1:56530
+2025/01/15 15:39:44 Client disconnected: 127.0.0.1:56530
+2025/01/15 15:39:50 Client connected: 127.0.0.1:56532
+2025/01/15 15:39:50 Client disconnected: 127.0.0.1:56532
+2025/01/15 15:39:51 Client connected: 127.0.0.1:42316
+2025/01/15 15:39:51 Client disconnected: 127.0.0.1:42316
+2025/01/15 15:39:55 Client connected: 127.0.0.1:42322
+2025/01/15 15:39:55 Client disconnected: 127.0.0.1:42322
+2025/01/15 15:40:01 Client connected: 127.0.0.1:34508
+2025/01/15 15:40:01 Client disconnected: 127.0.0.1:34508
+2025/01/15 15:40:25 Client connected: 127.0.0.1:34404
+2025/01/15 15:40:25 Client disconnected: 127.0.0.1:34404
+2025/01/15 15:41:15 Client connected: 127.0.0.1:34036
+2025/01/15 15:41:15 Client disconnected: 127.0.0.1:34036
+2025/01/15 15:42:06 Client connected: 127.0.0.1:49076
+2025/01/15 15:42:06 Client disconnected: 127.0.0.1:49076
+2025/01/15 15:42:13 Client connected: 127.0.0.1:58382
+2025/01/15 15:42:13 Client disconnected: 127.0.0.1:58382
+2025/01/15 15:42:18 Client connected: 127.0.0.1:58386
+2025/01/15 15:42:18 Client disconnected: 127.0.0.1:58386
+2025/01/15 15:42:22 Client connected: 127.0.0.1:32964
+2025/01/15 15:42:22 Client disconnected: 127.0.0.1:32964
+2025/01/15 15:42:25 Client connected: 127.0.0.1:32972
+2025/01/15 15:42:25 Client disconnected: 127.0.0.1:32972
+2025/01/15 15:42:28 Client connected: 127.0.0.1:32974
+2025/01/15 15:42:28 Client disconnected: 127.0.0.1:32974
+2025/01/15 15:42:31 Client connected: 127.0.0.1:53998
+2025/01/15 15:42:31 Client disconnected: 127.0.0.1:53998
+2025/01/15 15:42:33 Client connected: 127.0.0.1:54012
+2025/01/15 15:42:33 Client disconnected: 127.0.0.1:54012
+2025/01/15 15:42:36 Client connected: 127.0.0.1:54020
+2025/01/15 15:42:36 Client disconnected: 127.0.0.1:54020
+2025/01/15 15:42:38 Client connected: 127.0.0.1:54028
+2025/01/15 15:42:38 Client disconnected: 127.0.0.1:54028
+2025/01/15 15:43:00 Client connected: 127.0.0.1:53960
+2025/01/15 15:43:00 Client disconnected: 127.0.0.1:53960
+2025/01/15 15:43:02 Client connected: 127.0.0.1:56542
+2025/01/15 15:43:02 Client disconnected: 127.0.0.1:56542
+2025/01/15 15:43:07 Client connected: 127.0.0.1:56554
+2025/01/15 15:43:07 Client disconnected: 127.0.0.1:56554
+2025/01/15 15:43:21 Client connected: 127.0.0.1:34504
+2025/01/15 15:43:21 Client disconnected: 127.0.0.1:34504
+2025/01/15 15:43:24 Client connected: 127.0.0.1:34516
+2025/01/15 15:43:24 Client disconnected: 127.0.0.1:34516
+2025/01/15 15:46:30 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:46:30 DBs Initialized:  10
+2025/01/15 15:46:30 Server listening on localhost:8080
+2025/01/15 15:46:36 Client connected: 127.0.0.1:42910
+2025/01/15 15:46:36 Client disconnected: 127.0.0.1:42910
+2025/01/15 15:46:37 Client connected: 127.0.0.1:42920
+2025/01/15 15:46:37 Client disconnected: 127.0.0.1:42920
+2025/01/15 15:46:38 Client connected: 127.0.0.1:42922
+2025/01/15 15:46:38 Client disconnected: 127.0.0.1:42922
+2025/01/15 15:46:39 Client connected: 127.0.0.1:42930
+2025/01/15 15:46:39 Client disconnected: 127.0.0.1:42930
+2025/01/15 15:46:39 Client connected: 127.0.0.1:42938
+2025/01/15 15:46:39 Client disconnected: 127.0.0.1:42938
+2025/01/15 15:46:40 Client connected: 127.0.0.1:42944
+2025/01/15 15:46:40 Client disconnected: 127.0.0.1:42944
+2025/01/15 15:46:40 Client connected: 127.0.0.1:42956
+2025/01/15 15:46:40 Client disconnected: 127.0.0.1:42956
+2025/01/15 15:46:41 Client connected: 127.0.0.1:37904
+2025/01/15 15:46:41 Client disconnected: 127.0.0.1:37904
+2025/01/15 15:46:41 Client connected: 127.0.0.1:37908
+2025/01/15 15:46:41 Client disconnected: 127.0.0.1:37908
+2025/01/15 15:46:42 Client connected: 127.0.0.1:37922
+2025/01/15 15:46:42 Client disconnected: 127.0.0.1:37922
+2025/01/15 15:46:42 Client connected: 127.0.0.1:37934
+2025/01/15 15:46:42 Client disconnected: 127.0.0.1:37934
+2025/01/15 15:46:43 Client connected: 127.0.0.1:37946
+2025/01/15 15:46:43 Client disconnected: 127.0.0.1:37946
+2025/01/15 15:46:44 Client connected: 127.0.0.1:37960
+2025/01/15 15:46:44 Client disconnected: 127.0.0.1:37960
+2025/01/15 15:46:46 Client connected: 127.0.0.1:37968
+2025/01/15 15:46:46 Client disconnected: 127.0.0.1:37968
+2025/01/15 15:46:46 Client connected: 127.0.0.1:37978
+2025/01/15 15:46:46 Client disconnected: 127.0.0.1:37978
+2025/01/15 15:46:47 Client connected: 127.0.0.1:37990
+2025/01/15 15:46:47 Client disconnected: 127.0.0.1:37990
+2025/01/15 15:46:47 Client connected: 127.0.0.1:37996
+2025/01/15 15:46:47 Client disconnected: 127.0.0.1:37996
+2025/01/15 15:47:38 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:47:38 DBs Initialized:  10
+2025/01/15 15:47:38 Server listening on localhost:8080
+2025/01/15 15:47:41 Client connected: 127.0.0.1:58396
+2025/01/15 15:47:41 Client disconnected: 127.0.0.1:58396
+2025/01/15 15:47:42 Client connected: 127.0.0.1:38228
+2025/01/15 15:47:42 Client disconnected: 127.0.0.1:38228
+2025/01/15 15:47:42 Client connected: 127.0.0.1:38240
+2025/01/15 15:47:42 Client disconnected: 127.0.0.1:38240
+2025/01/15 15:47:43 Client connected: 127.0.0.1:38256
+2025/01/15 15:47:43 Client disconnected: 127.0.0.1:38256
+2025/01/15 15:47:43 Client connected: 127.0.0.1:38260
+2025/01/15 15:47:43 Client disconnected: 127.0.0.1:38260
+2025/01/15 15:47:44 Client connected: 127.0.0.1:38264
+2025/01/15 15:47:44 Client disconnected: 127.0.0.1:38264
+2025/01/15 15:47:44 Client connected: 127.0.0.1:38268
+2025/01/15 15:47:44 Client disconnected: 127.0.0.1:38268
+2025/01/15 15:47:45 Client connected: 127.0.0.1:38272
+2025/01/15 15:47:45 Client disconnected: 127.0.0.1:38272
+2025/01/15 15:47:45 Client connected: 127.0.0.1:38284
+2025/01/15 15:47:45 Client disconnected: 127.0.0.1:38284
+2025/01/15 15:47:45 Client connected: 127.0.0.1:38294
+2025/01/15 15:47:45 Client disconnected: 127.0.0.1:38294
+2025/01/15 15:47:46 Client connected: 127.0.0.1:38296
+2025/01/15 15:47:46 Client disconnected: 127.0.0.1:38296
+2025/01/15 15:48:12 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:48:12 DBs Initialized:  10
+2025/01/15 15:48:12 Server listening on localhost:8080
+2025/01/15 15:48:14 Client connected: 127.0.0.1:53466
+2025/01/15 15:48:14 Client disconnected: 127.0.0.1:53466
+2025/01/15 15:48:15 Client connected: 127.0.0.1:53472
+2025/01/15 15:48:15 Client disconnected: 127.0.0.1:53472
+2025/01/15 15:48:17 Client connected: 127.0.0.1:53488
+2025/01/15 15:48:17 Client disconnected: 127.0.0.1:53488
+2025/01/15 15:48:17 Client connected: 127.0.0.1:53494
+2025/01/15 15:48:17 Client disconnected: 127.0.0.1:53494
+2025/01/15 15:48:18 Client connected: 127.0.0.1:53506
+2025/01/15 15:48:18 Client disconnected: 127.0.0.1:53506
+2025/01/15 15:48:18 Client connected: 127.0.0.1:53522
+2025/01/15 15:48:18 Client disconnected: 127.0.0.1:53522
+2025/01/15 15:48:19 Client connected: 127.0.0.1:53530
+2025/01/15 15:48:19 Client disconnected: 127.0.0.1:53530
+2025/01/15 15:48:19 Client connected: 127.0.0.1:53536
+2025/01/15 15:48:19 Client disconnected: 127.0.0.1:53536
+2025/01/15 15:48:20 Client connected: 127.0.0.1:53538
+2025/01/15 15:48:20 Client disconnected: 127.0.0.1:53538
+2025/01/15 15:48:20 Client connected: 127.0.0.1:53540
+2025/01/15 15:48:20 Client disconnected: 127.0.0.1:53540
+2025/01/15 15:48:21 Client connected: 127.0.0.1:49452
+2025/01/15 15:48:21 Client disconnected: 127.0.0.1:49452
+2025/01/15 15:48:21 Client connected: 127.0.0.1:49468
+2025/01/15 15:48:21 Client disconnected: 127.0.0.1:49468
+2025/01/15 15:48:22 Client connected: 127.0.0.1:49476
+2025/01/15 15:48:22 Client disconnected: 127.0.0.1:49476
+2025/01/15 15:48:22 Client connected: 127.0.0.1:49484
+2025/01/15 15:48:22 Client disconnected: 127.0.0.1:49484
+2025/01/15 15:48:22 Client connected: 127.0.0.1:49488
+2025/01/15 15:48:22 Client disconnected: 127.0.0.1:49488
+2025/01/15 15:48:22 Client connected: 127.0.0.1:49504
+2025/01/15 15:48:22 Client disconnected: 127.0.0.1:49504
+2025/01/15 15:48:23 Client connected: 127.0.0.1:49508
+2025/01/15 15:48:23 Client disconnected: 127.0.0.1:49508
+2025/01/15 15:48:28 Client connected: 127.0.0.1:49522
+2025/01/15 15:48:28 Client disconnected: 127.0.0.1:49522
+2025/01/15 15:48:32 Client connected: 127.0.0.1:58964
+2025/01/15 15:48:32 Client disconnected: 127.0.0.1:58964
+2025/01/15 15:48:34 Client connected: 127.0.0.1:58974
+2025/01/15 15:48:34 Client disconnected: 127.0.0.1:58974
+2025/01/15 15:48:36 Client connected: 127.0.0.1:58990
+2025/01/15 15:48:36 Client disconnected: 127.0.0.1:58990
+2025/01/15 15:48:38 Client connected: 127.0.0.1:59002
+2025/01/15 15:48:38 Client disconnected: 127.0.0.1:59002
+2025/01/15 15:48:43 Client connected: 127.0.0.1:48618
+2025/01/15 15:48:43 Client disconnected: 127.0.0.1:48618
+2025/01/15 15:48:49 Client connected: 127.0.0.1:48628
+2025/01/15 15:48:49 Client disconnected: 127.0.0.1:48628
+2025/01/15 15:48:50 Client connected: 127.0.0.1:48636
+2025/01/15 15:48:50 Client disconnected: 127.0.0.1:48636
+2025/01/15 15:48:57 Client connected: 127.0.0.1:60094
+2025/01/15 15:48:57 Client disconnected: 127.0.0.1:60094
+2025/01/15 15:48:58 Client connected: 127.0.0.1:60104
+2025/01/15 15:48:58 Client disconnected: 127.0.0.1:60104
+2025/01/15 15:49:00 Client connected: 127.0.0.1:60120
+2025/01/15 15:49:00 Client disconnected: 127.0.0.1:60120
+2025/01/15 15:49:07 Client connected: 127.0.0.1:49186
+2025/01/15 15:49:07 Client disconnected: 127.0.0.1:49186
+2025/01/15 15:49:11 Client connected: 127.0.0.1:49200
+2025/01/15 15:49:11 Client disconnected: 127.0.0.1:49200
+2025/01/15 15:49:13 Client connected: 127.0.0.1:51774
+2025/01/15 15:49:13 Client disconnected: 127.0.0.1:51774
+2025/01/15 15:49:17 Client connected: 127.0.0.1:51790
+2025/01/15 15:49:17 Client disconnected: 127.0.0.1:51790
+2025/01/15 15:49:20 Client connected: 127.0.0.1:51806
+2025/01/15 15:49:20 Client disconnected: 127.0.0.1:51806
+2025/01/15 15:49:22 Client connected: 127.0.0.1:58670
+2025/01/15 15:49:22 Client disconnected: 127.0.0.1:58670
+2025/01/15 15:49:23 Client connected: 127.0.0.1:58682
+2025/01/15 15:49:23 Client disconnected: 127.0.0.1:58682
+2025/01/15 15:49:25 Client connected: 127.0.0.1:58694
+2025/01/15 15:49:25 Client disconnected: 127.0.0.1:58694
+2025/01/15 15:49:26 Client connected: 127.0.0.1:58706
+2025/01/15 15:49:26 Client disconnected: 127.0.0.1:58706
+2025/01/15 15:49:27 Client connected: 127.0.0.1:58722
+2025/01/15 15:49:27 Client disconnected: 127.0.0.1:58722
+2025/01/15 15:49:28 Client connected: 127.0.0.1:58724
+2025/01/15 15:49:28 Client disconnected: 127.0.0.1:58724
+2025/01/15 15:49:29 Client connected: 127.0.0.1:58730
+2025/01/15 15:49:29 Client disconnected: 127.0.0.1:58730
+2025/01/15 15:49:30 Client connected: 127.0.0.1:58736
+2025/01/15 15:49:30 Client disconnected: 127.0.0.1:58736
+2025/01/15 15:49:32 Client connected: 127.0.0.1:49626
+2025/01/15 15:49:32 Client disconnected: 127.0.0.1:49626
+2025/01/15 15:49:34 Client connected: 127.0.0.1:49642
+2025/01/15 15:49:34 Client disconnected: 127.0.0.1:49642
+2025/01/15 15:49:34 Client connected: 127.0.0.1:49652
+2025/01/15 15:49:34 Client disconnected: 127.0.0.1:49652
+2025/01/15 15:49:35 Client connected: 127.0.0.1:49654
+2025/01/15 15:49:35 Client disconnected: 127.0.0.1:49654
+2025/01/15 15:49:35 Client connected: 127.0.0.1:49658
+2025/01/15 15:49:35 Client disconnected: 127.0.0.1:49658
+2025/01/15 15:49:45 Client connected: 127.0.0.1:50796
+2025/01/15 15:49:45 Client disconnected: 127.0.0.1:50796
+2025/01/15 15:49:53 Client connected: 127.0.0.1:46094
+2025/01/15 15:49:53 Client disconnected: 127.0.0.1:46094
+2025/01/15 15:49:57 Client connected: 127.0.0.1:46104
+2025/01/15 15:49:57 Client disconnected: 127.0.0.1:46104
+2025/01/15 15:50:02 Client connected: 127.0.0.1:38876
+2025/01/15 15:50:02 Client disconnected: 127.0.0.1:38876
+2025/01/15 15:50:04 Client connected: 127.0.0.1:38890
+2025/01/15 15:50:04 Client disconnected: 127.0.0.1:38890
+2025/01/15 15:50:05 Client connected: 127.0.0.1:38898
+2025/01/15 15:50:05 Client disconnected: 127.0.0.1:38898
+2025/01/15 15:50:05 Client connected: 127.0.0.1:38912
+2025/01/15 15:50:05 Client disconnected: 127.0.0.1:38912
+2025/01/15 15:50:06 Client connected: 127.0.0.1:38928
+2025/01/15 15:50:06 Client disconnected: 127.0.0.1:38928
+2025/01/15 15:50:08 Client connected: 127.0.0.1:38938
+2025/01/15 15:50:08 Client disconnected: 127.0.0.1:38938
+2025/01/15 15:50:12 Client connected: 127.0.0.1:33494
+2025/01/15 15:50:12 Client disconnected: 127.0.0.1:33494
+2025/01/15 15:50:15 Client connected: 127.0.0.1:33498
+2025/01/15 15:50:15 Client disconnected: 127.0.0.1:33498
+2025/01/15 15:50:16 Client connected: 127.0.0.1:33508
+2025/01/15 15:50:16 Client disconnected: 127.0.0.1:33508
+2025/01/15 15:50:23 Client connected: 127.0.0.1:56894
+2025/01/15 15:50:23 Client disconnected: 127.0.0.1:56894
+2025/01/15 15:50:27 Client connected: 127.0.0.1:56908
+2025/01/15 15:50:27 Client disconnected: 127.0.0.1:56908
+2025/01/15 15:50:28 Client connected: 127.0.0.1:56916
+2025/01/15 15:50:28 Client disconnected: 127.0.0.1:56916
+2025/01/15 15:50:31 Client connected: 127.0.0.1:34810
+2025/01/15 15:50:31 Client disconnected: 127.0.0.1:34810
+2025/01/15 15:50:32 Client connected: 127.0.0.1:34816
+2025/01/15 15:50:32 Client disconnected: 127.0.0.1:34816
+2025/01/15 15:50:46 Client connected: 127.0.0.1:39532
+2025/01/15 15:50:46 Client disconnected: 127.0.0.1:39532
+2025/01/15 15:50:49 Client connected: 127.0.0.1:39540
+2025/01/15 15:50:49 Client disconnected: 127.0.0.1:39540
+2025/01/15 15:50:51 Client connected: 127.0.0.1:39550
+2025/01/15 15:50:51 Client disconnected: 127.0.0.1:39550
+2025/01/15 15:50:51 Client connected: 127.0.0.1:57106
+2025/01/15 15:50:51 Client disconnected: 127.0.0.1:57106
+2025/01/15 15:50:52 Client connected: 127.0.0.1:57116
+2025/01/15 15:50:52 Client disconnected: 127.0.0.1:57116
+2025/01/15 15:51:58 Client connected: 127.0.0.1:35532
+2025/01/15 15:51:58 Client disconnected: 127.0.0.1:35532
+2025/01/15 15:52:07 Client connected: 127.0.0.1:53638
+2025/01/15 15:52:07 Client disconnected: 127.0.0.1:53638
+2025/01/15 15:52:09 Client connected: 127.0.0.1:53646
+2025/01/15 15:52:09 Client disconnected: 127.0.0.1:53646
+2025/01/15 15:52:16 Client connected: 127.0.0.1:54912
+2025/01/15 15:52:16 Client disconnected: 127.0.0.1:54912
+2025/01/15 15:52:22 Client connected: 127.0.0.1:48210
+2025/01/15 15:52:22 Client disconnected: 127.0.0.1:48210
+2025/01/15 15:52:24 Client connected: 127.0.0.1:48226
+2025/01/15 15:52:24 Client disconnected: 127.0.0.1:48226
+2025/01/15 15:54:34 Client connected: 127.0.0.1:48362
+2025/01/15 15:54:34 Client disconnected: 127.0.0.1:48362
+2025/01/15 15:54:46 Client connected: 127.0.0.1:32840
+2025/01/15 15:54:46 Client disconnected: 127.0.0.1:32840
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53612
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53612
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53616
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53616
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53624
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53624
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53630
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53630
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53646
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53646
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53660
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53660
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53668
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53668
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53678
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53678
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53684
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53684
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53698
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53698
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53702
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53702
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53716
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53716
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53718
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53718
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53730
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53730
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53736
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53736
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53750
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53750
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53756
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53756
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53762
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53762
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53778
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53778
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53782
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53782
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53788
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53788
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53800
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53800
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53812
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53812
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53824
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53824
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53832
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53832
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53840
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53840
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53846
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53846
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53862
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53862
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53868
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53868
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53880
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53880
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53886
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53886
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53902
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53902
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53918
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53918
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53920
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53920
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53928
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53928
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53936
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53936
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53944
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53944
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53946
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53946
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53950
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53950
+2025/01/15 15:54:55 Client connected: 127.0.0.1:53964
+2025/01/15 15:54:55 Client disconnected: 127.0.0.1:53964
+2025/01/15 15:55:00 Client connected: 127.0.0.1:53972
+2025/01/15 15:55:00 Client disconnected: 127.0.0.1:53972
+2025/01/15 15:55:02 Client connected: 127.0.0.1:43724
+2025/01/15 15:55:02 Client disconnected: 127.0.0.1:43724
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35808
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35808
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35818
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35818
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35826
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35826
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35832
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35832
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35842
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35842
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35856
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35856
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35862
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35862
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35876
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35876
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35890
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35890
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35898
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35898
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35910
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35910
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35920
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35920
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35922
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35922
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35934
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35934
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35944
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35944
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35956
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35956
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35962
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35962
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35970
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35970
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35980
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35980
+2025/01/15 15:56:20 Client connected: 127.0.0.1:35986
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:35986
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36000
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36000
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36006
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36006
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36016
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36016
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36030
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36030
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36034
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36034
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36044
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36044
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36048
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36048
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36058
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36058
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36062
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36062
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36072
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36072
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36088
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36088
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36096
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36096
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36106
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36106
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36116
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36116
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36120
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36120
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36132
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36132
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36140
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36140
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36156
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36156
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36172
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36172
+2025/01/15 15:56:20 Client connected: 127.0.0.1:36180
+2025/01/15 15:56:20 Client disconnected: 127.0.0.1:36180
+2025/01/15 15:56:23 Client connected: 127.0.0.1:54736
+2025/01/15 15:56:23 Client disconnected: 127.0.0.1:54736
+2025/01/15 15:56:46 Client connected: 127.0.0.1:54974
+2025/01/15 15:56:46 Client disconnected: 127.0.0.1:54974
+2025/01/15 15:57:43 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:57:43 DBs Initialized:  10
+2025/01/15 15:57:43 Server listening on localhost:8080
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58382
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58382
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58384
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58384
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58394
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58394
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58400
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58400
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58404
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58404
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58406
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58406
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58414
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58414
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58430
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58430
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58432
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58432
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58442
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58442
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58454
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58454
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58466
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58466
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58468
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58468
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58480
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58480
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58484
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58484
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58500
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58500
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58514
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58514
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58526
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58526
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58528
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58528
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58542
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58542
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58548
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58548
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58550
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58550
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58564
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58564
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58572
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58572
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58574
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58574
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58582
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58582
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58596
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58596
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58602
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58602
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58614
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58614
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58630
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58630
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58644
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58644
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58654
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58654
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58668
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58668
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58684
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58684
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58694
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58694
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58698
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58698
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58706
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58706
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58720
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58720
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58728
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58728
+2025/01/15 15:57:50 Client connected: 127.0.0.1:58736
+2025/01/15 15:57:50 Client disconnected: 127.0.0.1:58736
+2025/01/15 15:57:55 Client connected: 127.0.0.1:50466
+2025/01/15 15:57:55 Client disconnected: 127.0.0.1:50466
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50478
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50478
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50486
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50486
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50494
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50494
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50510
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50510
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50516
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50516
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50520
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50520
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50534
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50534
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50548
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50548
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50562
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50562
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50564
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50564
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50578
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50578
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50580
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50580
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50588
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50588
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50602
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50602
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50608
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50608
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50620
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50620
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50632
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50632
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50638
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50638
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50642
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50642
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50644
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50644
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50648
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50648
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50654
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50654
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50670
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50670
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50680
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50680
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50688
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50688
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50704
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50704
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50720
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50720
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50734
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50734
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50738
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50738
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50746
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50746
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50756
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50756
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50760
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50760
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50776
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50776
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50788
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50788
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50800
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50800
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50812
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50812
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50826
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50826
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50836
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50836
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50840
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50840
+2025/01/15 15:57:59 Client connected: 127.0.0.1:50846
+2025/01/15 15:57:59 Client disconnected: 127.0.0.1:50846
+2025/01/15 15:58:01 Client connected: 127.0.0.1:44222
+2025/01/15 15:58:01 Client disconnected: 127.0.0.1:44222
+2025/01/15 15:58:04 Client connected: 127.0.0.1:44236
+2025/01/15 15:58:04 Client disconnected: 127.0.0.1:44236
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51092
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51092
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51102
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51102
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51110
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51110
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51112
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51112
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51120
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51120
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51128
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51128
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51144
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51144
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51146
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51146
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51160
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51160
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51162
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51162
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51178
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51178
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51194
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51194
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51210
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51210
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51220
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51220
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51224
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51224
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51232
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51232
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51246
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51246
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51258
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51258
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51268
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51268
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51270
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51270
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51286
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51286
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51292
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51292
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51306
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51306
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51310
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51310
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51324
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51324
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51336
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51336
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51350
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51350
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51362
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51362
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51366
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51366
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51376
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51376
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51382
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51382
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51392
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51392
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51408
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51408
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51416
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51416
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51428
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51428
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51434
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51434
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51448
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51448
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51464
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51464
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51476
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51476
+2025/01/15 15:58:11 Client connected: 127.0.0.1:51492
+2025/01/15 15:58:11 Client disconnected: 127.0.0.1:51492
+2025/01/15 15:58:12 Client connected: 127.0.0.1:51504
+2025/01/15 15:58:12 Client disconnected: 127.0.0.1:51504
+2025/01/15 15:58:20 Client connected: 127.0.0.1:51520
+2025/01/15 15:58:20 Client disconnected: 127.0.0.1:51520
+2025/01/15 15:58:20 Client connected: 127.0.0.1:51526
+2025/01/15 15:58:20 Client disconnected: 127.0.0.1:51526
+2025/01/15 15:58:21 Client connected: 127.0.0.1:46408
+2025/01/15 15:58:21 Client disconnected: 127.0.0.1:46408
+2025/01/15 15:58:22 Client connected: 127.0.0.1:46414
+2025/01/15 15:58:22 Client disconnected: 127.0.0.1:46414
+2025/01/15 15:58:22 Client connected: 127.0.0.1:46430
+2025/01/15 15:58:22 Client disconnected: 127.0.0.1:46430
+2025/01/15 15:58:23 Client connected: 127.0.0.1:46444
+2025/01/15 15:58:23 Client disconnected: 127.0.0.1:46444
+2025/01/15 15:58:24 Client connected: 127.0.0.1:46450
+2025/01/15 15:58:24 Client disconnected: 127.0.0.1:46450
+2025/01/15 15:58:34 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 15:58:34 DBs Initialized:  10
+2025/01/15 15:58:34 Server listening on localhost:8080
+2025/01/15 15:58:44 Client connected: 127.0.0.1:36962
+2025/01/15 15:58:44 Client connected: 127.0.0.1:36974
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:36962
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:36974
+2025/01/15 15:58:44 Client connected: 127.0.0.1:36982
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:36982
+2025/01/15 15:58:44 Client connected: 127.0.0.1:36988
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:36988
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37004
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37004
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37008
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37008
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37010
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37010
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37012
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37012
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37024
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37024
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37036
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37036
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37048
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37048
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37050
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37050
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37058
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37058
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37062
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37062
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37072
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37072
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37078
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37078
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37082
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37082
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37088
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37088
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37092
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37092
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37102
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37102
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37104
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37104
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37120
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37120
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37136
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37136
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37140
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37140
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37144
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37144
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37160
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37160
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37164
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37164
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37170
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37170
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37176
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37176
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37184
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37184
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37194
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37194
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37198
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37198
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37212
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37212
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37214
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37214
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37218
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37218
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37222
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37222
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37228
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37228
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37232
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37232
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37240
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37240
+2025/01/15 15:58:44 Client connected: 127.0.0.1:37250
+2025/01/15 15:58:44 Client disconnected: 127.0.0.1:37250
+2025/01/15 15:58:46 Client connected: 127.0.0.1:37252
+2025/01/15 15:58:46 Client disconnected: 127.0.0.1:37252
+2025/01/15 15:58:48 Client connected: 127.0.0.1:37262
+2025/01/15 15:58:48 Client disconnected: 127.0.0.1:37262
+2025/01/15 15:58:48 Client connected: 127.0.0.1:37278
+2025/01/15 15:58:48 Client disconnected: 127.0.0.1:37278
+2025/01/15 15:58:49 Client connected: 127.0.0.1:37294
+2025/01/15 15:58:49 Client disconnected: 127.0.0.1:37294
+2025/01/15 15:58:49 Client connected: 127.0.0.1:37296
+2025/01/15 15:58:49 Client disconnected: 127.0.0.1:37296

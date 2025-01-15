@@ -3,7 +3,10 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"net"
+	"os"
+	"runtime"
 	"strconv"
 	"strings"
 	"time"
@@ -20,22 +23,33 @@ type command struct {
 }
 
 func main() {
-	// Shared map managed by a goroutine
-	commands := make(chan command)
+	//set standard variables
+	version := "0.1.1"
+	max_db := int(10)
 
+	//open log file for... logging?
+	file, err := os.OpenFile("yarc-server.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	if err != nil {
+		log.Fatalf("Failed to open log file: %s", err)
+	}
+	defer file.Close()
+	commands := make(chan command)
+	log.SetOutput(file)
+	log.Println("\n------------------------------\nStarting YARC Server: ", version, "\n------------------------------")
 	// Start map manager goroutine
-	go mapManager(commands, 10, true)
+	go mapManager(commands, max_db, true)
 
 	// Start the socket server
 	address := "localhost:8080"
 	listener, err := net.Listen("tcp", address)
+
 	if err != nil {
 		fmt.Println("Error starting server:", err)
 		return
 	}
 	defer listener.Close()
 
-	fmt.Println("Server listening on", address)
+	log.Println("Server listening on", address)
 
 	for {
 		// Accept a new connection
@@ -51,23 +65,24 @@ func main() {
 
 // Goroutine to manage the shared map
 func mapManager(commands chan command, max_db int, debugging bool) {
-	es3s_channel := []map[string]map[string][]byte{}
+	yarc_channel := []map[string]map[string][]byte{}
 	for dbs := 1; dbs <= max_db; dbs++ {
-		es3s_channel = append(es3s_channel, make(map[string]map[string][]byte))
+		yarc_channel = append(yarc_channel, make(map[string]map[string][]byte))
 
 	}
 
-	fmt.Println("Max number of DB's: ", len(es3s_channel))
-
+	//fmt.Println("Max number of DB's: ", len(yarc_channel))
+	log.Println("DBs Initialized: ", len(yarc_channel))
+	var memStats runtime.MemStats
 	for cmd := range commands {
 		switch cmd.action {
 		case "GET":
 			// Handle GET request
 			if debugging {
-				fmt.Println("Getting:", cmd.key, "in DB", cmd.db)
+				//fmt.Println("Getting:", cmd.key, "in DB", cmd.db)
 			}
 
-			if value, ok := es3s_channel[cmd.db][cmd.key]; ok {
+			if value, ok := yarc_channel[cmd.db][cmd.key]; ok {
 				cmd.result <- string(value["data"]) // Don't unmarshal the raw JSON
 			} else {
 				cmd.result <- "(nil)"
@@ -75,24 +90,43 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 
 		case "SET":
 			// Handle SET request
-			es3s_channel[cmd.db][cmd.key] = make(map[string][]byte)
-			es3s_channel[cmd.db][cmd.key]["data"] = []byte(cmd.value)
-			es3s_channel[cmd.db][cmd.key]["datetime"] = []byte(cmd.date)
+			yarc_channel[cmd.db][cmd.key] = make(map[string][]byte)
+			yarc_channel[cmd.db][cmd.key]["data"] = []byte(cmd.value)
+			yarc_channel[cmd.db][cmd.key]["datetime"] = []byte(cmd.date)
 
 			if debugging {
-				fmt.Println("Setting:", cmd.key, "in DB", cmd.db, " to ", cmd.value)
+				//fmt.Println("Setting:", cmd.key, "in DB", cmd.db, " to ", cmd.value)
 			}
 
 			cmd.result <- "OK"
 
 		case "DEL":
 			// Handle DELETE request
-			if _, ok := es3s_channel[cmd.db][cmd.key]; ok {
-				delete(es3s_channel[cmd.db], cmd.key)
+			if _, ok := yarc_channel[cmd.db][cmd.key]; ok {
+				delete(yarc_channel[cmd.db], cmd.key)
 				cmd.result <- "OK"
 			} else {
 				cmd.result <- "(key not found)"
 			}
+
+		case "STATS":
+			//get DB usage
+			for db := 0; db < len(yarc_channel); db++ {
+				//arraysize := int(unsafe.Sizeof(yarc_channel[db]))
+				//fmt.Printf("\n - Size of DB %d is %d", db, arraysize)
+			}
+
+			//get general memory usage
+			runtime.ReadMemStats(&memStats)
+			totalAll := (float64(memStats.Alloc) / (1024 * 1024))
+			gcAll := (float64(memStats.Sys) / (1024 * 1024))
+			stats := fmt.Sprintf("TotalAllocated: %.2fMB, System Usaged: %.2fMB", totalAll, gcAll)
+			cmd.result <- stats
+
+		case "PURGE":
+			// Handle PURGE request
+			yarc_channel[cmd.db] = make(map[string]map[string][]byte)
+			cmd.result <- "OK"
 
 		case "EXIT":
 			// Handle DELETE request
@@ -108,7 +142,8 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 func handleConnection(conn net.Conn, commands chan command) {
 	defer conn.Close()
 	can_continue := true
-	fmt.Println("Client connected:", conn.RemoteAddr())
+	//fmt.Println("Client connected:", conn.RemoteAddr())
+	log.Println("Client connected:", conn.RemoteAddr())
 
 	reader := bufio.NewScanner(conn)
 	for reader.Scan() {
@@ -149,6 +184,7 @@ func handleConnection(conn net.Conn, commands chan command) {
 			conn.Write([]byte(response + "\n"))
 		}
 	}
-
+	runtime.GC()
 	fmt.Println("Client disconnected:", conn.RemoteAddr())
+	log.Println("Client disconnected:", conn.RemoteAddr())
 }
