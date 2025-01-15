@@ -1,4 +1,5 @@
 ![main](https://github.com/Beheadedstraw/YARC/actions/workflows/Server.yml/badge.svg?branch=main) ![main](https://github.com/Beheadedstraw/YARC/actions/workflows/Client.yaml/badge.svg?branch=main)
+
 ![dev](https://github.com/Beheadedstraw/YARC/actions/workflows/Dev-Server.yaml/badge.svg?branch=dev) ![dev](https://github.com/Beheadedstraw/YARC/actions/workflows/Dev-Client.yaml/badge.svg?branch=dev) 
 # YARC (Yet Another Redis Clone)
 
