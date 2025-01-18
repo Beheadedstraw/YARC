@@ -2,49 +2,55 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"net"
 	"os"
-	"strings"
+	"time"
 )
 
 func main() {
-	// Check if the user provided a command as an argument
-	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run client.go <command>")
-		fmt.Println("Example: go run client.go 'SET mykey myvalue'")
-		return
+	// Define the command-line switch for the passcode
+	passcode := flag.String("passcode", "", "Passcode to authenticate with the server")
+	serverAddr := flag.String("server", "localhost:8080", "Address of the server")
+	serverCommand := flag.String("command", "", "Sends command to the server")
+	flag.Parse()
+
+	if *passcode == "" {
+		fmt.Println("Error: Passcode is required.")
+		os.Exit(1)
 	}
 
-	// Get the command from the command line arguments
-	command := strings.Join(os.Args[1:], " ")
-	fmt.Println(os.Args)
-
 	// Connect to the server
-	serverAddress := "localhost:8080" // Update if server uses a different address or port
-	conn, err := net.Dial("tcp", serverAddress)
+	conn, err := net.Dial("tcp", *serverAddr)
 	if err != nil {
-		fmt.Println("Error connecting to server:", err)
-		return
+		fmt.Printf("Error connecting to server: %v\n", err)
+		os.Exit(1)
 	}
 	defer conn.Close()
 
-	// Send the command to the server
-	fmt.Println("Sending: ", command)
-	_, err = conn.Write([]byte(command + "\n"))
-	if err != nil {
-		fmt.Println("Error sending command:", err)
-		return
-	}
+	// Send the passcode to the server
+	fmt.Println("Auth String: ", []byte(*passcode))
+	conn.Write([]byte("CSTRING " + *passcode + "\n"))
 
 	// Read the server's response
-	reader := bufio.NewReader(conn)
-	response, err := reader.ReadString('\n')
-	if err != nil {
-		fmt.Println("Error reading response:", err)
-		return
+	scanner := bufio.NewScanner(conn)
+	if scanner.Scan() {
+		response := scanner.Text()
+		fmt.Println("Auth response:", response)
+		if response != "AUTH SUCCESSFUL" {
+			fmt.Println("Authentication failed. Exiting.")
+			return
+		}
 	}
 
-	// Print the server's response
-	fmt.Print("Response from server: ", response)
+	// Continue sending commands after successful authentication
+	//fmt.Println("Connected. Enter commands:")
+	command := []byte(*serverCommand + "\n")
+	fmt.Println("Command to send:", command)
+	conn.Write(command)
+	time.Sleep(1)
+	if scanner.Scan() {
+		fmt.Println("Server response:", scanner.Text())
+	}
 }

@@ -937,3 +937,344 @@ Starting YARC Server:  0.1.1
 2025/01/15 15:58:49 Client disconnected: 127.0.0.1:37294
 2025/01/15 15:58:49 Client connected: 127.0.0.1:37296
 2025/01/15 15:58:49 Client disconnected: 127.0.0.1:37296
+2025/01/15 20:03:04 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 20:03:04 DBs Initialized:  10
+2025/01/15 20:03:04 Server listening on localhost:8080
+2025/01/15 20:03:54 Client connected: 127.0.0.1:60464
+2025/01/15 20:03:54 Getting: devin in DB 0
+2025/01/15 20:03:54 Client disconnected: 127.0.0.1:60464
+2025/01/15 20:04:04 Client connected: 127.0.0.1:42360
+2025/01/15 20:04:04 Setting: devin in DB 0  to  
+2025/01/15 20:04:04 Client disconnected: 127.0.0.1:42360
+2025/01/15 20:04:07 Client connected: 127.0.0.1:42372
+2025/01/15 20:04:07 Getting: devin in DB 0
+2025/01/15 20:04:07 Client disconnected: 127.0.0.1:42372
+2025/01/15 20:04:13 Client connected: 127.0.0.1:46560
+2025/01/15 20:04:13 Setting: devin in DB 0  to  djskladsa
+2025/01/15 20:04:13 Client disconnected: 127.0.0.1:46560
+2025/01/15 20:04:17 Client connected: 127.0.0.1:46568
+2025/01/15 20:04:17 Getting: devin in DB 0
+2025/01/15 20:04:17 Client disconnected: 127.0.0.1:46568
+2025/01/15 20:04:49 Client connected: 127.0.0.1:41954
+2025/01/15 20:04:49 Getting: devin in DB 0
+2025/01/15 20:04:49 Client disconnected: 127.0.0.1:41954
+2025/01/15 20:05:06 Client connected: 127.0.0.1:47076
+2025/01/15 20:05:06 Client disconnected: 127.0.0.1:47076
+2025/01/15 20:05:53 Client connected: 127.0.0.1:34590
+2025/01/15 20:05:53 Client disconnected: 127.0.0.1:34590
+2025/01/15 20:10:19 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 20:10:19 DBs Initialized:  10
+2025/01/15 20:10:19 Server listening on localhost:8080
+2025/01/15 20:10:22 Client connected: 127.0.0.1:35618
+2025/01/15 20:10:22 Client disconnected: 127.0.0.1:35618
+2025/01/15 20:10:25 Client connected: 127.0.0.1:35626
+2025/01/15 20:12:00 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/15 20:12:00 DBs Initialized:  10
+2025/01/15 20:12:00 Server listening on localhost:8080
+2025/01/15 20:12:05 Client connected: 127.0.0.1:60456
+2025/01/15 20:12:05 Client disconnected: 127.0.0.1:60456
+2025/01/15 20:12:15 Client connected: 127.0.0.1:59790
+2025/01/15 20:12:15 Client disconnected: 127.0.0.1:59790
+2025/01/15 20:12:27 Client connected: 127.0.0.1:56184
+2025/01/15 20:12:27 Client disconnected: 127.0.0.1:56184
+2025/01/17 15:45:18 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 15:45:18 DBs Initialized:  10
+2025/01/17 15:45:18 Server listening on localhost:8080
+2025/01/17 15:45:57 Client connected: 127.0.0.1:60484
+2025/01/17 15:45:57 Client disconnected: 127.0.0.1:60484
+2025/01/17 15:46:14 Client connected: 127.0.0.1:46980
+2025/01/17 15:46:14 Client disconnected: 127.0.0.1:46980
+2025/01/17 15:50:18 Client connected: 127.0.0.1:37722
+2025/01/17 15:50:21 Client disconnected: 127.0.0.1:37722
+2025/01/17 15:53:32 Client connected: 127.0.0.1:60274
+2025/01/17 15:56:03 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 15:56:03 DBs Initialized:  10
+2025/01/17 15:56:03 Server listening on localhost:8080
+2025/01/17 15:56:06 Client connected: 127.0.0.1:53098
+2025/01/17 15:56:06 Client disconnected: 127.0.0.1:53098
+2025/01/17 15:58:15 Client connected: 127.0.0.1:41604
+2025/01/17 15:58:15 Client disconnected: 127.0.0.1:41604
+2025/01/17 15:58:19 Client connected: 127.0.0.1:41614
+2025/01/17 15:58:19 Client disconnected: 127.0.0.1:41614
+2025/01/17 15:59:12 Client connected: 127.0.0.1:54976
+2025/01/17 15:59:12 Client disconnected: 127.0.0.1:54976
+2025/01/17 15:59:34 Client connected: 127.0.0.1:45042
+2025/01/17 15:59:34 Client disconnected: 127.0.0.1:45042
+2025/01/17 16:00:24 Client connected: 127.0.0.1:40100
+2025/01/17 16:00:24 Client disconnected: 127.0.0.1:40100
+2025/01/17 16:04:29 Client connected: 127.0.0.1:58646
+2025/01/17 16:04:29 Client disconnected: 127.0.0.1:58646
+2025/01/17 16:05:11 Client connected: 127.0.0.1:45800
+2025/01/17 16:05:11 Setting: test in DB 0  to  test
+2025/01/17 16:05:11 Client disconnected: 127.0.0.1:45800
+2025/01/17 16:06:39 Client connected: 127.0.0.1:56216
+2025/01/17 16:06:39 Setting: test in DB 0  to  test
+2025/01/17 16:06:39 Client disconnected: 127.0.0.1:56216
+2025/01/17 16:07:10 Client connected: 127.0.0.1:44276
+2025/01/17 16:07:10 Getting: test in DB 0
+2025/01/17 16:07:10 Client disconnected: 127.0.0.1:44276
+2025/01/17 16:07:15 Client connected: 127.0.0.1:44278
+2025/01/17 16:07:15 Getting: test in DB 0
+2025/01/17 16:07:15 Client disconnected: 127.0.0.1:44278
+2025/01/17 16:09:18 Client connected: 127.0.0.1:47360
+2025/01/17 16:09:18 Client disconnected: 127.0.0.1:47360
+2025/01/17 16:09:37 Client connected: 127.0.0.1:51670
+2025/01/17 16:09:37 Getting: test in DB 0
+2025/01/17 16:09:37 Client disconnected: 127.0.0.1:51670
+2025/01/17 16:11:12 Client connected: 127.0.0.1:37086
+2025/01/17 16:11:12 Getting: test in DB 0
+2025/01/17 16:11:12 Client disconnected: 127.0.0.1:37086
+2025/01/17 16:15:59 Client connected: 127.0.0.1:49064
+2025/01/17 16:15:59 Getting: test in DB 0
+2025/01/17 16:15:59 Client disconnected: 127.0.0.1:49064
+2025/01/17 16:16:10 Client connected: 127.0.0.1:45826
+2025/01/17 16:16:10 Getting: test in DB 0
+2025/01/17 16:16:10 Client disconnected: 127.0.0.1:45826
+2025/01/17 16:16:25 Client connected: 127.0.0.1:50966
+2025/01/17 16:16:25 Getting: test in DB 0
+2025/01/17 16:16:25 Client disconnected: 127.0.0.1:50966
+2025/01/17 16:20:03 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:20:03 DBs Initialized:  10
+2025/01/17 16:20:03 Server listening on localhost:8080
+2025/01/17 16:20:06 Client connected: 127.0.0.1:56972
+2025/01/17 16:20:06 Getting: test in DB 0
+2025/01/17 16:20:06 Client disconnected: 127.0.0.1:56972
+2025/01/17 16:21:10 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:21:10 DBs Initialized:  10
+2025/01/17 16:21:10 Server listening on localhost:8080
+2025/01/17 16:21:13 Client connected: 127.0.0.1:48766
+2025/01/17 16:21:13 Getting: test in DB 0
+2025/01/17 16:21:13 Client disconnected: 127.0.0.1:48766
+2025/01/17 16:22:33 Client connected: 127.0.0.1:55218
+2025/01/17 16:22:33 Client disconnected: 127.0.0.1:55218
+2025/01/17 16:22:36 Client connected: 127.0.0.1:55234
+2025/01/17 16:22:36 Getting: test in DB 0
+2025/01/17 16:22:36 Client disconnected: 127.0.0.1:55234
+2025/01/17 16:23:18 Client connected: 127.0.0.1:47216
+2025/01/17 16:23:23 Getting: test in DB 0
+2025/01/17 16:23:23 Client disconnected: 127.0.0.1:47216
+2025/01/17 16:24:40 Client connected: 127.0.0.1:59734
+2025/01/17 16:24:40 Getting: test in DB 0
+2025/01/17 16:24:40 Client disconnected: 127.0.0.1:59734
+2025/01/17 16:26:16 Client connected: 127.0.0.1:33502
+2025/01/17 16:26:16 Setting: test in DB 0  to  test
+2025/01/17 16:26:16 Client disconnected: 127.0.0.1:33502
+2025/01/17 16:27:03 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:27:03 DBs Initialized:  10
+2025/01/17 16:27:03 Server listening on localhost:8080
+2025/01/17 16:27:09 Client connected: 127.0.0.1:36144
+2025/01/17 16:27:16 Client disconnected: 127.0.0.1:36144
+2025/01/17 16:28:12 Client connected: 127.0.0.1:40040
+2025/01/17 16:28:12 Setting: test in DB 0  to  test
+2025/01/17 16:28:12 Client disconnected: 127.0.0.1:40040
+2025/01/17 16:30:10 Client connected: 127.0.0.1:39740
+2025/01/17 16:30:10 Setting: test in DB 0  to  test
+2025/01/17 16:30:10 Client disconnected: 127.0.0.1:39740
+2025/01/17 16:31:43 Client connected: 127.0.0.1:47482
+2025/01/17 16:31:43 Setting: test in DB 0  to  test
+2025/01/17 16:31:43 Client disconnected: 127.0.0.1:47482
+2025/01/17 16:31:54 Client connected: 127.0.0.1:33516
+2025/01/17 16:31:54 Getting: test in DB 0
+2025/01/17 16:31:54 Client disconnected: 127.0.0.1:33516
+2025/01/17 16:32:45 Client connected: 127.0.0.1:46986
+2025/01/17 16:32:45 Getting: test in DB 0
+2025/01/17 16:32:45 Client disconnected: 127.0.0.1:46986
+2025/01/17 16:32:52 Client connected: 127.0.0.1:39338
+2025/01/17 16:32:52 Client disconnected: 127.0.0.1:39338
+2025/01/17 16:32:55 Client connected: 127.0.0.1:39350
+2025/01/17 16:32:55 Getting: test in DB 0
+2025/01/17 16:32:55 Client disconnected: 127.0.0.1:39350
+2025/01/17 16:33:09 Client connected: 127.0.0.1:37910
+2025/01/17 16:33:09 Getting: test in DB 0
+2025/01/17 16:33:09 Client disconnected: 127.0.0.1:37910
+2025/01/17 16:33:14 Client connected: 127.0.0.1:37916
+2025/01/17 16:33:14 Getting: test in DB 0
+2025/01/17 16:33:14 Client disconnected: 127.0.0.1:37916
+2025/01/17 16:34:41 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:34:41 DBs Initialized:  10
+2025/01/17 16:34:41 Server listening on localhost:8080
+2025/01/17 16:34:51 Client connected: 127.0.0.1:47586
+2025/01/17 16:34:54 Client disconnected: 127.0.0.1:47586
+2025/01/17 16:35:09 Client connected: 127.0.0.1:56204
+2025/01/17 16:35:09 Getting: test in DB 0
+2025/01/17 16:35:09 Client disconnected: 127.0.0.1:56204
+2025/01/17 16:35:50 Client connected: 127.0.0.1:34556
+2025/01/17 16:35:50 Getting: test in DB 0
+2025/01/17 16:35:50 Client disconnected: 127.0.0.1:34556
+2025/01/17 16:37:17 Client connected: 127.0.0.1:58946
+2025/01/17 16:37:17 Getting: test in DB 0
+2025/01/17 16:37:17 Client disconnected: 127.0.0.1:58946
+2025/01/17 16:37:54 Client connected: 127.0.0.1:52700
+2025/01/17 16:37:54 Getting: test in DB 0
+2025/01/17 16:37:54 Client disconnected: 127.0.0.1:52700
+2025/01/17 16:38:11 Client connected: 127.0.0.1:49612
+2025/01/17 16:38:11 Getting: test in DB 1
+2025/01/17 16:38:11 Client disconnected: 127.0.0.1:49612
+2025/01/17 16:38:17 Client connected: 127.0.0.1:49624
+2025/01/17 16:38:17 Getting: test in DB 0
+2025/01/17 16:38:17 Client disconnected: 127.0.0.1:49624
+2025/01/17 16:38:29 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:38:29 DBs Initialized:  10
+2025/01/17 16:38:29 Server listening on localhost:8080
+2025/01/17 16:38:32 Client connected: 127.0.0.1:40522
+2025/01/17 16:38:32 Getting: test in DB 0
+2025/01/17 16:38:32 Client disconnected: 127.0.0.1:40522
+2025/01/17 16:38:38 Client connected: 127.0.0.1:40534
+2025/01/17 16:38:42 Getting: test in DB 0
+2025/01/17 16:38:42 Client disconnected: 127.0.0.1:40534
+2025/01/17 16:39:14 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:39:14 DBs Initialized:  10
+2025/01/17 16:39:14 Server listening on localhost:8080
+2025/01/17 16:39:38 Client connected: 127.0.0.1:47498
+2025/01/17 16:39:49 Client connected: 127.0.0.1:33676
+2025/01/17 16:40:24 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:40:24 DBs Initialized:  10
+2025/01/17 16:40:24 Server listening on localhost:8080
+2025/01/17 16:40:29 Client connected: 127.0.0.1:53554
+2025/01/17 16:41:36 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:41:36 DBs Initialized:  10
+2025/01/17 16:41:36 Server listening on localhost:8080
+2025/01/17 16:41:38 Client connected: 127.0.0.1:60654
+2025/01/17 16:41:43 Client disconnected: 127.0.0.1:60654
+2025/01/17 16:42:44 Client connected: 127.0.0.1:38268
+2025/01/17 16:42:44 Client disconnected: 127.0.0.1:38268
+2025/01/17 16:43:10 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:43:10 DBs Initialized:  10
+2025/01/17 16:43:10 Server listening on localhost:8080
+2025/01/17 16:43:12 Client connected: 127.0.0.1:56498
+2025/01/17 16:43:20 Client disconnected: 127.0.0.1:56498
+2025/01/17 16:44:45 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:44:45 DBs Initialized:  10
+2025/01/17 16:44:45 Server listening on localhost:8080
+2025/01/17 16:44:50 Client connected: 127.0.0.1:40056
+2025/01/17 16:44:50 Getting: test in DB 0
+2025/01/17 16:44:50 Client disconnected: 127.0.0.1:40056
+2025/01/17 16:46:08 Client connected: 127.0.0.1:52112
+2025/01/17 16:46:08 Getting: test in DB 0
+2025/01/17 16:46:08 Client disconnected: 127.0.0.1:52112
+2025/01/17 16:46:17 Client connected: 127.0.0.1:54752
+2025/01/17 16:46:17 Getting: test in DB 0
+2025/01/17 16:46:17 Client disconnected: 127.0.0.1:54752
+2025/01/17 16:46:19 Client connected: 127.0.0.1:54758
+2025/01/17 16:46:19 Getting: test in DB 0
+2025/01/17 16:46:19 Client disconnected: 127.0.0.1:54758
+2025/01/17 16:48:59 Client connected: 127.0.0.1:54300
+2025/01/17 16:48:59 Getting: test in DB 0
+2025/01/17 16:48:59 Client disconnected: 127.0.0.1:54300
+2025/01/17 16:50:33 Client connected: 127.0.0.1:51408
+2025/01/17 16:50:33 Getting: test in DB 0
+2025/01/17 16:50:33 Client disconnected: 127.0.0.1:51408
+2025/01/17 16:50:42 Client connected: 127.0.0.1:52878
+2025/01/17 16:50:42 Setting: test in DB 0  to  
+2025/01/17 16:50:42 Client disconnected: 127.0.0.1:52878
+2025/01/17 16:50:47 Client connected: 127.0.0.1:52892
+2025/01/17 16:50:47 Setting: test in DB 0  to  test
+2025/01/17 16:50:47 Client disconnected: 127.0.0.1:52892
+2025/01/17 16:51:09 Client connected: 127.0.0.1:49710
+2025/01/17 16:51:09 Setting: test in DB 0  to  
+2025/01/17 16:51:09 Client disconnected: 127.0.0.1:49710
+2025/01/17 16:51:13 Client connected: 127.0.0.1:49714
+2025/01/17 16:51:13 Setting: test in DB 0  to  test
+2025/01/17 16:51:13 Client disconnected: 127.0.0.1:49714
+2025/01/17 16:58:14 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/01/17 16:58:14 DBs Initialized:  10
+2025/01/17 16:58:14 Server listening on localhost:8080
+2025/01/17 16:58:18 Client connected: 127.0.0.1:60746
+2025/01/17 16:58:18 Setting: test in DB 0  to  test
+2025/01/17 16:58:23 Client disconnected: 127.0.0.1:60746
+2025/01/17 16:58:43 Client connected: 127.0.0.1:34088
+2025/01/17 16:58:43 Setting: test in DB 0  to  test
+2025/01/17 16:58:43 Client disconnected: 127.0.0.1:34088
+2025/01/17 16:58:49 Client connected: 127.0.0.1:51320
+2025/01/17 16:58:49 Client disconnected: 127.0.0.1:51320
+2025/01/17 16:58:52 Client connected: 127.0.0.1:51328
+2025/01/17 16:58:52 Client disconnected: 127.0.0.1:51328
+2025/01/17 16:58:53 Client connected: 127.0.0.1:51330
+2025/01/17 16:58:53 Client disconnected: 127.0.0.1:51330
+2025/01/17 16:58:54 Client connected: 127.0.0.1:51344
+2025/01/17 16:58:54 Client disconnected: 127.0.0.1:51344
+2025/01/17 16:58:54 Client connected: 127.0.0.1:51346
+2025/01/17 16:58:54 Client disconnected: 127.0.0.1:51346
+2025/01/17 16:58:55 Client connected: 127.0.0.1:51358
+2025/01/17 16:58:55 Client disconnected: 127.0.0.1:51358
+2025/01/17 16:58:55 Client connected: 127.0.0.1:51370
+2025/01/17 16:58:55 Client disconnected: 127.0.0.1:51370
+2025/01/17 16:58:57 Client connected: 127.0.0.1:51384
+2025/01/17 16:58:57 Client disconnected: 127.0.0.1:51384
+2025/01/17 16:58:58 Client connected: 127.0.0.1:51394
+2025/01/17 16:58:58 Client disconnected: 127.0.0.1:51394
+2025/01/17 17:00:26 Client connected: 127.0.0.1:49350
+2025/01/17 17:00:26 Setting: test in DB 0  to  test
+2025/01/17 17:00:26 Client disconnected: 127.0.0.1:49350
+2025/01/17 17:00:35 Client connected: 127.0.0.1:51676
+2025/01/17 17:00:35 Getting: test in DB 0
+2025/01/17 17:00:35 Client disconnected: 127.0.0.1:51676
+2025/01/17 17:01:30 Client connected: 127.0.0.1:60222
+2025/01/17 17:01:30 Setting: test in DB 0  to  test
+2025/01/17 17:01:30 Client disconnected: 127.0.0.1:60222
+2025/01/17 17:01:37 Client connected: 127.0.0.1:60234
+2025/01/17 17:01:37 Getting: test in DB 0
+2025/01/17 17:01:37 Client disconnected: 127.0.0.1:60234
+2025/01/17 17:01:39 Client connected: 127.0.0.1:44296
+2025/01/17 17:01:39 Getting: test in DB 0
+2025/01/17 17:01:39 Client disconnected: 127.0.0.1:44296
+2025/01/17 17:01:43 Client connected: 127.0.0.1:44312
+2025/01/17 17:01:43 Getting: test in DB 0
+2025/01/17 17:01:43 Client disconnected: 127.0.0.1:44312
+2025/01/17 17:02:08 Client connected: 127.0.0.1:52666
+2025/01/17 17:02:08 Getting: test in DB 0
+2025/01/17 17:02:08 Client disconnected: 127.0.0.1:52666
+2025/01/17 17:02:09 Client connected: 127.0.0.1:52682
+2025/01/17 17:02:09 Getting: test in DB 0
+2025/01/17 17:02:09 Client disconnected: 127.0.0.1:52682
+2025/01/17 17:02:09 Client connected: 127.0.0.1:47698
+2025/01/17 17:02:09 Getting: test in DB 0
+2025/01/17 17:02:09 Client disconnected: 127.0.0.1:47698

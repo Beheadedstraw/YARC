@@ -26,6 +26,7 @@ func main() {
 	//set standard variables
 	version := "0.1.1"
 	max_db := int(10)
+	cstring := "1234abcd"
 
 	//open log file for... logging?
 	file, err := os.OpenFile("yarc-server.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
@@ -59,17 +60,21 @@ func main() {
 			continue
 		}
 		// Handle the connection in a new goroutine
-		go handleConnection(conn, commands)
+		go handleConnection(conn, commands, cstring)
 	}
 }
 
 // Goroutine to manage the shared map
 func mapManager(commands chan command, max_db int, debugging bool) {
+
+	//Initialize DB chache map
 	yarc_channel := []map[string]map[string][]byte{}
+	//yarc_sort := [][]string{}
 	for dbs := 1; dbs <= max_db; dbs++ {
 		yarc_channel = append(yarc_channel, make(map[string]map[string][]byte))
-
 	}
+
+	//Initialize sort map
 
 	//fmt.Println("Max number of DB's: ", len(yarc_channel))
 	log.Println("DBs Initialized: ", len(yarc_channel))
@@ -79,7 +84,7 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 		case "GET":
 			// Handle GET request
 			if debugging {
-				//fmt.Println("Getting:", cmd.key, "in DB", cmd.db)
+				log.Println("Getting:", cmd.key, "in DB", cmd.db)
 			}
 
 			if value, ok := yarc_channel[cmd.db][cmd.key]; ok {
@@ -95,7 +100,7 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 			yarc_channel[cmd.db][cmd.key]["datetime"] = []byte(cmd.date)
 
 			if debugging {
-				//fmt.Println("Setting:", cmd.key, "in DB", cmd.db, " to ", cmd.value)
+				log.Println("Setting:", cmd.key, "in DB", cmd.db, " to ", cmd.value)
 			}
 
 			cmd.result <- "OK"
@@ -133,15 +138,16 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 			cmd.result <- "CLOSECONN"
 
 		default:
-			cmd.result <- "(unknown command)"
+			cmd.result <- ("(unknown command " + string(cmd.db) + ")")
 		}
 	}
 }
 
 // Handle individual client connections
-func handleConnection(conn net.Conn, commands chan command) {
+func handleConnection(conn net.Conn, commands chan command, cstring string) {
 	defer conn.Close()
-	can_continue := true
+	isAuthed := false
+	//can_continue := true
 	//fmt.Println("Client connected:", conn.RemoteAddr())
 	log.Println("Client connected:", conn.RemoteAddr())
 
@@ -157,34 +163,56 @@ func handleConnection(conn net.Conn, commands chan command) {
 		}
 		db_int, err := strconv.Atoi(parts[0])
 		if err == nil {
-			//
-		} else {
-			can_continue = false
-		}
-		action := strings.ToUpper(parts[1])
-		var key, value string
-		if len(parts) > 2 {
-			key = strings.TrimSpace(parts[2])
-		}
-		if len(parts) > 3 {
-			value = strings.Join(parts[3:], " ")
-		}
+			// Handle commands
+			if isAuthed {
+				action := ""
+				if len(parts) > 1 {
+					action = strings.ToUpper(parts[1])
+				} else {
+					conn.Write([]byte("Invalid Command String\n"))
+				}
 
-		date := time.Now().String()
+				var key, value string
+				if len(parts) > 2 {
+					key = strings.TrimSpace(parts[2])
+				}
+				if len(parts) > 3 {
+					value = strings.Join(parts[3:], " ")
+				}
 
-		// Handle commands
-		if can_continue {
-			result := make(chan string)
-			commands <- command{action: action, key: key, date: date, value: value, db: db_int, result: result}
-			response := <-result
-			if response == "CLOSECONN" {
+				date := time.Now().String()
+				result := make(chan string)
+				commands <- command{action: action, key: key, date: date, value: value, db: db_int, result: result}
+				response := <-result
+				if response == "CLOSECONN" {
+					conn.Write([]byte(response + "\n"))
+					conn.Close()
+				}
 				conn.Write([]byte(response + "\n"))
-				conn.Close()
 			}
-			conn.Write([]byte(response + "\n"))
+		} else {
+			auth := strings.ToUpper(parts[0])
+			if auth == "CSTRING" {
+				if parts[1] == cstring {
+					conn.Write([]byte("AUTH SUCCESSFUL\n"))
+					isAuthed = true
+				} else {
+					isAuthed = false
+					//can_continue = false
+				}
+			} else {
+				conn.Write([]byte("Commands Must Start With DB Integer\n"))
+			}
+		}
+
+		if !isAuthed {
+			conn.Write([]byte("Authentication required\n"))
+			conn.Close()
 		}
 	}
-	runtime.GC()
-	fmt.Println("Client disconnected:", conn.RemoteAddr())
+
+	/* We'll see how this goes, a rewrite in C or Rust(shiver) might be a better alternative if the GC impacts
+	performance too much */
+	//runtime.GC()
 	log.Println("Client disconnected:", conn.RemoteAddr())
 }
