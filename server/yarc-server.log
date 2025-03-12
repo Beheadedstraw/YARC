@@ -1284,3 +1284,15 @@ Starting YARC Server:  0.1.1
 ------------------------------
 2025/01/20 13:14:00 DBs Initialized:  10
 2025/01/20 13:14:00 Server listening on localhost:8080
+2025/03/11 19:48:47 
+------------------------------
+Starting YARC Server:  0.1.1 
+------------------------------
+2025/03/11 19:48:47 DBs Initialized:  10
+2025/03/11 19:48:47 Server listening on localhost:8080
+2025/03/11 19:49:18 Client connected: 127.0.0.1:52226
+2025/03/11 19:49:28 Client disconnected: 127.0.0.1:52226
+2025/03/11 19:49:37 Client connected: 127.0.0.1:46050
+2025/03/11 19:51:00 Getting: dev in DB 0
+2025/03/11 19:51:05 Setting: dev in DB 0  to  dev
+2025/03/11 19:51:11 Getting: dev in DB 0

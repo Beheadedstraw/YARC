@@ -126,7 +126,7 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 			runtime.ReadMemStats(&memStats)
 			totalAll := (float64(memStats.Alloc) / (1024 * 1024))
 			gcAll := (float64(memStats.Sys) / (1024 * 1024))
-			stats := fmt.Sprintf("TotalAllocated: %.2fMB, System Usaged: %.2fMB", totalAll, gcAll)
+			stats := fmt.Sprintf("TotalAllocated: %.2fMB, System Usage: %.2fMB", totalAll, gcAll)
 			cmd.result <- stats
 
 		case "PURGE":
@@ -139,7 +139,7 @@ func mapManager(commands chan command, max_db int, debugging bool) {
 			cmd.result <- "CLOSECONN"
 
 		default:
-			cmd.result <- ("(unknown command " + string(cmd.db) + ")")
+			cmd.result <- ("(unknown command " + string(cmd.db) + ") current supported commands are GET, SET, DEL, PURGE, EXIT")
 		}
 	}
 }
