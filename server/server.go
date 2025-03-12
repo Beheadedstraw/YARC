@@ -24,6 +24,7 @@ type command struct {
 
 func main() {
 	//set standard variables
+	test_fun()
 	version := "0.1.1"
 	max_db := int(10)
 	cstring := "1234abcd"
